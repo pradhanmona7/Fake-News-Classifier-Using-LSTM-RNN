@@ -37,17 +37,21 @@ train.csv: A full training dataset with the following attributes:
    
          3.6.4. Add an LSTM layer with 100 units to capture sequential patterns and dependencies in the input
    
-         3.6.5. Add a dense layer with a sigmoid activation to output probabilities for binary classification \n
-         3.6.6. Compile the model using binary cross-entropy as the loss function, Adam as the optimizer, and accuracy as the evaluation metric \n
+         3.6.5. Add a dense layer with a sigmoid activation to output probabilities for binary classification
+   
+         3.6.6. Compile the model using binary cross-entropy as the loss function, Adam as the optimizer, and accuracy as the evaluation metric
+   
          3.6.7. Fit the model with epoch 10 and batch size 64
 
    ## Model Evaluation:
 
    1. Accuracy: 0.9083678541839271
    2. Confusion Matrix:
+      
         array([[3158,  261],
                [292, 2324]])
-   3. Classification Report:
+   4. Classification Report:
+      
                           precision    recall  f1-score   support
           
                      0       0.92      0.92      0.92      3419
